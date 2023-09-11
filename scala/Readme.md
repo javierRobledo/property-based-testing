@@ -1,0 +1,1 @@
+Documentación de scalacheck: https://scalacheck.org/

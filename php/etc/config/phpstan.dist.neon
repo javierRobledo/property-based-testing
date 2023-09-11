@@ -1,0 +1,9 @@
+includes:
+    - ../../vendor/phpstan/phpstan-strict-rules/rules.neon
+    - ../../vendor/php-standard-library/phpstan-extension/extension.neon
+
+parameters:
+	level: max
+	paths:
+		- ../../src
+		- ../../tests

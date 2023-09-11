@@ -1,0 +1,1 @@
+Documentación sobre FsCheck: https://fscheck.github.io/FsCheck/

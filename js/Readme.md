@@ -1,0 +1,1 @@
+Documentación de fast-check: https://fast-check.dev/
