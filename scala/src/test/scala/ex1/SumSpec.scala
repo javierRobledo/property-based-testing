@@ -1,5 +1,5 @@
-import SumSpec.MIN_TEST_TO_PASS
-import org.scalactic.anyvals.PosInt
+package ex1
+
 import org.scalatest.matchers.should
 import org.scalatest.propspec.AnyPropSpec
 import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks

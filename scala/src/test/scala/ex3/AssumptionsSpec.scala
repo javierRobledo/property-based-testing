@@ -1,3 +1,9 @@
+package ex3
+
+import org.scalatest.matchers.should
+import org.scalatest.propspec.AnyPropSpec
+import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
+
 class AssumptionsSpec extends AnyPropSpec with ScalaCheckPropertyChecks with should.Matchers {
   property("dividing a number by 1 returns itself") {
     throw new IllegalStateException("not implemented")

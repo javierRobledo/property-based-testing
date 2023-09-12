@@ -1,6 +1,6 @@
 class GildedRose(val items: Array[Item]) {
-  def updateQuality() {
-    for (i <- 0 until items.length) {
+  def updateQuality(): Unit =
+    for (i <- items.indices) {
       if (!items(i).name.equals("Aged Brie")
         && !items(i).name.equals("Backstage passes to a TAFKAL80ETC concert")) {
         if (items(i).quality > 0) {
@@ -50,5 +50,4 @@ class GildedRose(val items: Array[Item]) {
         }
       }
     }
-  }
 }
