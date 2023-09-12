@@ -1,4 +1,4 @@
-amespace Property_Based_Testing.Ex4;
+namespace Property_Based_Testing.Ex4;
 
 public class Item
 {

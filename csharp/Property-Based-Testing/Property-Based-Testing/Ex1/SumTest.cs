@@ -22,6 +22,6 @@ public class SumTest
     [Property]
     public Property Test_IdentityProperty(int a)
     {
-        throw new InvalidOperationException("Test not implemented");<<
+        throw new InvalidOperationException("Test not implemented");
     }
 }
